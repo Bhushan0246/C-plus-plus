@@ -1,0 +1,49 @@
+#include<iostream>
+using namespace std;
+int main() {
+	int number;
+	cout<<"2D AREAS:\n";
+	cout<<" 1. Rectangle\n 2. Square\n 3. Circle\n 4. Triangle\n 5. Rhombus\n";
+	cin>>number;
+	switch(number) {
+		case 1:
+		double l,b;
+		cout<<"Area of Rectangle\n";
+		cout<<"Enter the length and breadth in cm: ";
+		cin>>l>>b;
+		cout<<"\nThe area of rectangle is: "<<l*b<<"cm squ.\n";
+		break;
+		case 2:
+		double s;
+		cout<<"Area of Square\n";
+		cout<<"Enter the side in cm: ";
+		cin>>s;
+		cout<<"\nThe area of square is: "<<s*s<<"cm squ.\n";
+		break;
+		case 3:
+		double r;
+		cout<<"Area of Circle\n";
+		cout<<"Enter the radius in cm: ";
+		cin>>r;
+		cout<<"\nThe area of circle is: "<<3.14*(r*r)<<"cm squ.\n";
+		break;
+		case 4:
+		double base,h;
+		cout<<"Area of Triangle\n";
+		cout<<"Enter the base and height in cm: ";
+		cin>>base>>h;
+		cout<<"\nThe area of triangle is: "<<0.5*(base*h)<<"cm squ.\n";
+		break;
+		case 5:
+		double d,d1;
+		cout<<"Area of Rhombus\n";
+		cout<<"Enter the lenght of diagonals in cm: ";
+		cin>>d>>d1;
+		cout<<"\nThe area of rhombus is: "<<0.5*(d*d1)<<"cm squ.\n";
+		break;	
+		default:
+		cout<<"Entered invalid number.";
+		break;
+	}
+	return 0;
+}

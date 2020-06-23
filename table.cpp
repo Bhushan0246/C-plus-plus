@@ -1,0 +1,15 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+	int n,limit=1,sum;
+	cout<<"You want table of: ";
+	cin>>n;
+	while(limit<=10){
+	sum=n*limit;
+	cout<<n<<" * "<<limit<<" = "<<sum<<"\n";
+	limit++;
+}	
+	return 0;	
+}
