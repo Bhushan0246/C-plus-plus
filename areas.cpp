@@ -5,6 +5,7 @@ int main() {
 	cout<<"2D AREAS:\n";
 	cout<<" 1. Rectangle\n 2. Square\n 3. Circle\n 4. Triangle\n 5. Rhombus\n";
 	cin>>number;
+	system("CLS");
 	switch(number) {
 		case 1:
 		double l,b;

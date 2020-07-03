@@ -6,6 +6,7 @@ int number,a,b,sum;
 cout<<" 1. Addition\n 2. Subtraction\n 3. Multiplication\n 4. division\n 5. modulous\n";
 cout<<"Enter number of operation: ";
 cin>>number;
+system("CLS");
 switch(number){
 	case 1:
 	cout<<"Add\n";
