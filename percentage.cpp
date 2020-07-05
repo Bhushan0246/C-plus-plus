@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int total_marks,out_of,percent;
+	cout<<"Enter the total marks you got: ";
+	cin>>total_marks;
+	cout<<"Got out of: ";
+	cin>>out_of;
+	percent=(total_marks*100)/out_of;
+	cout<<"You got: "<<percent<<"%"<<endl;
+	return 0;
+}
