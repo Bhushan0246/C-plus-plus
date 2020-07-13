@@ -6,7 +6,7 @@ int main()
 {
 int n,tries=1;
 cout<<"Hello Friend!\nThis is the time to have some fun"<<endl;
-cout<<"I have a Lucky Number guess it: "<<endl;
+cout<<"I have a Lucky Number between 0-10 guess it: "<<endl;
 cin>>n;
 while(n!=7 && tries<=3) {
 	system("CLS");
@@ -18,9 +18,9 @@ while(n!=7 && tries<=3) {
 if(n==7) {
 	cout<<"Yeah! Right guess.\nCongratulations";
 }
-	if(tries<=3) {
-		cout<<"OH! You reached Tries limit: "<<tries<<endl;
-	}
+else if(tries<=3) {
+	cout<<"OH! You reached Tries limit: "<<tries<<endl;
+}
 return 0;
 }
 
