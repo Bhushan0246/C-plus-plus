@@ -1,11 +1,13 @@
 #include <iostream>
+using namespace std;
+
 int main() {
   double height, weight, bmi;
-  std::cout << "Type in your height (m): ";
-  std::cin >> height;
-  std::cout << "Type in your Weight (kg): ";
-  std::cin >> weight;
+  cout << "Type in your height (m): ";
+  cin >> height;
+  cout << "Type in your Weight (kg): ";
+  cin >> weight;
   bmi=weight/(height*height);
-  std::cout<<"your bmi is "<<bmi<<"\n";
+  cout<<"your bmi is "<<bmi<<endl;
   return 0;
 }
