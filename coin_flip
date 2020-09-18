@@ -13,4 +13,5 @@ int main() {
 	else{
 		cout<<"Tails"<<endl;
 	}
+return 0;
 }
