@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+
 int main() {
 	int a;
 	char ch;
@@ -7,12 +8,12 @@ int main() {
 	cin>>ch;
 	a=ch;
 	if(a<91 && a>64){
-		cout<<"The character is in Uppercase\n";
+		cout<<"The character is in Uppercase"<<endl;
 	}
 	else if(a>96 && a<123){
-		cout<<"The character is in Lowercase.\n";
+		cout<<"The character is in Lowercase."<<endl;
 	}
 	else{
-		cout<<"This is a Symbol.\n";
+		cout<<"This is a Symbol."<<endl;
 	}
 }
