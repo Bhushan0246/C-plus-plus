@@ -3,7 +3,7 @@
 using namespace std;
 
 void myFunction(string firstname,int age) {
-  cout << firstname << " Harode. "<<age<<" years old.\n";
+  cout << firstname << " Harode. "<<age<<" years old."<<endl;
 }
 
 int main() {
