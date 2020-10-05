@@ -1,14 +1,14 @@
 #include<iostream>
 using namespace std;
-int main()
-{
+
+int main() {
 	int number;
 	cout<<"\tConvert distance"<<endl;
 	cout<<"1. km to m"<<endl<<"2. m to km"<<endl;
 	cout<<"Enter the case number: ";
 	cin>>number;
 	system("CLS");
-	switch(number){
+	switch(number) {
 	case 1:
 		int km;
 	cout<<"Convert km to m."<<endl;
