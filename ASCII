@@ -3,6 +3,7 @@
 using namespace std;
 
 int main() {
+
 	int a;
 	char ch;
 	cout<<"American Standard Code for Information Interchange(ASCII)"<<endl;
@@ -10,4 +11,6 @@ int main() {
 	cin>>ch;
 	a=ch;
 	cout<<"\nThe number of "<<ch<<" in ASCII is "<<a<<endl;
+	
+	return 0;
 }
